@@ -1,5 +1,6 @@
 ---
   import Layout from '../layouts/Layout.astro';
+  import Card from '../components/Card.astro'
 ---
 
   <Layout title="Proxys">
@@ -14,24 +15,19 @@
       <h1 class="  text-slate-500 text-1xl mr-3 float-left absolute">Page Were you can find all our proxys!</h1>
       </div>
       
+    <div class="grid h-screen place-items-center text-white text-1xl w-full lg:place-items-stretch xl:place-items-stretch">
+      <Card
+      img="/banner-fetured.svg"
+      body="Use web.ngms.place right away to access a website proxy that utilizes ultraviolet and is very simplistic and right to the point!"
+      title="web.ngms.place"
+      by="Nonreai"
+      id="web.ngms.place"
+      />
 
-   <div class=" ml-[.5rem] mt-[2rem] max-w-sm bg-red border border-gray-200 rounded-lg shadow mr-[.5rem]  lg:ml-[2rem] xl:ml-[2rem] lg:mt-[3rem] xl:mt-[3rem]">
-    <a href="https://web.ngms.place/">
-        <img class="rounded-t-lg" src="/banner-fetured.svg" alt="" />
-    </a>
-    <div class="p-5">
-        <a href="https://web.ngms.place/">
-            <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">web.ngms.place</h5>
-        </a>
-        <p class="mb-3 font-normal text-gray-400">Use web.ngms.place right away to access a website proxy that utilizes ultraviolet and is very simplistic and right to the point!<br><br>
-        Proxy By Nonreai
-        </p>
-        <a onclick="window.open('https://web.ngms.place/')" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-            Go to
-            <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-        </a>
+      
+        
     </div>
-</div>
+  
 
 
   </Layout>
