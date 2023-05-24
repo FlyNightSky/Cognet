@@ -11,7 +11,7 @@ export interface Props {
 const { by="hi", title="hi", body="hi", img ="/banner1.svg", open="null" } = Astro.props as Props;
 ---
 
- <div class=" ml-[.5rem] h-fit max-w-sm bg-red border border-gray-200 rounded-lg shadow mr-[1rem] mb-5">
+ <div class=" select-none ml-[.5rem] h-fit max-w-sm bg-red border border-gray-200 rounded-lg shadow-lg mr-[1rem] mb-5 hover:ring-offset-2 ring-2">
     <a onclick={open}>
         <button onclick={open}><img class="rounded-t-lg" src={img} alt="" /><button/>
     </a>
