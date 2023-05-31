@@ -1,0 +1,12 @@
+---
+export interface Props {
+	title: string;
+}
+
+const { title="null", mt="10rem" } = Astro.props as Props;
+---
+    <div>
+   <button><a onclick="#" class="inline-flex absolute items-center px-3 py-2 text-center text-white 10rem p-2 pr-[1rem] ml-5 bg-primary opacity-60 rounded-t-lg rounded-l-lg rounded-r-lg z-0 hover:opacity-100 md:p-3 xl:p-3">
+          {title}
+    </a></button>
+    <div>

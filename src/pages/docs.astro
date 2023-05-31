@@ -4,15 +4,86 @@ import Layout from "../layouts/Layout.astro";
 
 <Layout title="Docs">
     <nav class="fixed top-0 left-0 right-0 z-50 backdrop-blur-[.2rem] h-[6.5rem] text-white overflow-hidden	">
-        <a href='https://github.com/FlyNightSky/cognet'><img src="github.svg" alt="githubLogo" class="float-right mt-7 mx-4 w-12" id="github"></a>
+        <a href='https://github.com/FlyNightSky/cognet'><h1 class="absolute mt-[3rem] ml-[6rem] text-primary text-1xl lg:text-2xl xl:text-2xl">Docs</h1><img src="github.svg" alt="githubLogo" class="float-right mt-7 mx-4 w-12" id="github"></a>
         <a href="./proxys" class="text-white float-right mt-10 pl-5 pr-2 hover:text-primary">Proxys</a>
         <a href="./docs" class="text-white float-right mt-10 hover:text-primary">Docs</a>
         <a href="./"><img src="/logo.png" alt="logo"class="w-24 pb-5 pt-5 px-3" id="logo"></a>
     </nav>
 
-    <div class="grid h-screen place-items-center text-white text-1xl lg:text-2xl xl:text-2xl">
-        Hello User!, This Page is not yet finished :(<br><br>
+   
+
+  <div class="mx-auto w-full mt-[8rem] text-white text-1xl ">
+  
+    <p class="l w-4/6 text-[1.30rem] absolute ml-[28%] hidden xl:block lg:block  ">
+<a class="text-5xl">Welcome</a>,<br><br>
+
+Lunar Soft empowers individuals like you to end internet censorship. We prioritize unrestricted access to information and enhance your online experience through exceptional services.<br><br>
+We value transparency and knowledge sharing. Explore our extensive documentation or join our vibrant Discord server to learn more and engage with our developer community!<br><br>
+<a class="text-4xl">Contributing to the Docs:</a><br><br>
+
+We value community input and encourage contributions to our documentation. Contributing to Lunar Soft and the docs is effortless and straightforward. Visit our official repository to share your knowledge, insights, or suggestions with us.<br><br>
+Let's work together to build a comprehensive knowledge base that empowers individuals and creates a more open and accessible internet. Join our mission to make the online world freer and more inclusive!
+  <div class="flex justify-center w-full  mt-[43rem] absolute rounded-lg text-white">
+<div id="alert-2" class="flex p-4 mb-4 text-red-800 rounded-lg bg-red-50 ml-[12rem] dark:bg-gray-800 dark:text-red-400" role="alert">
+  <svg aria-hidden="true" class="flex-shrink-0 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd"></path></svg>
+  <span class="sr-only">Info</span>
+  <div class="ml-3 text-sm font-medium">
+   Need Help Contributing?  <a href="#" class="font-semibold underline hover:no-underline">Join Our Discord</a> Joining our Discord server for contributing assistance; our main developers are readily available to help.
+  </div>
+</div>
+
+</div>
+
+
+
+      </div>
+
+    </p>
+
+
+
+    <p class="w-[45rem] absolute ml-[25%] block xl:hidden lg:hidden">
+    Welcome,<br><br>
+Lunar Soft that works to end internet censorship for people like you! We're ready to make you experience better with our services<br><br>
+
+If you want to know more or if there's something specific you want to learn about, browse through the docs or ask our developers something on our community Discord server!<br><br>
+
+Contributing to the Docs​:<br><br>
+
+It's simple and easy to contribute to the documentation- just as easy as it is to contribute to Lunar Soft! To contribute to the docs, go to the official repository.
+    </p>
+      <div class="bg-primary w-60 ml-5 rounded-lg shadow-lg mb-6 opacity-90 hover:opacity-100	">
+      <div class="p-2">
+        <h2 class="text-xl font-bold text-white">‎ ‎ ‎Introduction</h2>
+      </div>
     </div>
+
+    <div class="bg-primary w-60 rounded-lg shadow-lg mb-6 ml-5 opacity-90 hover:opacity-100	">
+      <div class="p-2">
+        <h2 class="text-xl text-white font-bold">‎ ‎Getting Started</h2>
+      </div>
+    </div>
+
+    <div class="bg-primary w-60 rounded-lg shadow-lg mb-6 ml-5 opacity-90 hover:opacity-100	">
+    <a onclick="#" class="inline-flex items-center px-3 py-2 ">
+                  <h2 class="text-xl text-white font-bold ">‎ API Reference‎ ‎ ‎ ‎ </h2>
+
+           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="text-white w-6 h-6 stroke-[3px]">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+        </a>
+      
+
+      </div>
+    </div>
+
+    <div class="bg-primary w-60 rounded-lg shadow-lg ml-5 opacity-90 hover:opacity-100">
+      <div class="p-2">
+        <h2 class="text-xl text-white font-bold">‎ Examples</h2>
+      </div>
+    </div>
+
+  </div>
+
 
 
 </Layout>
@@ -24,4 +95,8 @@ import Layout from "../layouts/Layout.astro";
         font-weight: bold;
     
     }
+
+    .btn1{
+		@apply p-2 mt-5 bg-docsRed rounded-t-lg rounded-l-lg rounded-r-lg  shadow-secondary-200 hover:opacity-75 shadow-lg lg:p-3 md:p-3 xl:p-3;
+	}
 </style>
