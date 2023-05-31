@@ -1,5 +1,5 @@
 import { defineConfig } from 'astro/config';
-
+import { inject } from '@vercel/analytics';
 import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
